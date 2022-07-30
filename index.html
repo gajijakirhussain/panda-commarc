@@ -7,11 +7,12 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
@@ -27,13 +28,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Shuse</a>
+                            <a class="nav-link active" aria-current="page" href="#shoes">Shuse</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Bacpack</a>
+                            <a class="nav-link active" aria-current="page" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Sabscribe</a>
+                            <a class="nav-link active" aria-current="page" href="#suscribe">Sabscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -42,7 +43,7 @@
         <!--slider start-->
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active bg-info border rounded p-5">
+                <div class="carousel-item active panda-bg-info border rounded p-5">
                     <div class="row">
                         <div class="col-lg-7 d-flex align-items-center ps-5">
                             <div class="">
@@ -50,7 +51,7 @@
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus ea eligendi, sit
                                     laborum maiores id.</p>
                                 <h1>$420</h1>
-                                <div class="btn btn-warning">Boy Now</div>
+                                <div class="btn panda-btn-boy-now">Boy Now</div>
                             </div>
                         </div>
                         <div class="col-lg-5">
@@ -58,7 +59,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item active bg-info border rounded p-5">
+                <div class="carousel-item active panda-bg-info border rounded p-5">
                     <div class="row">
                         <div class="col-lg-7 d-flex align-items-center ps-5">
                             <div class="">
@@ -66,7 +67,7 @@
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus ea eligendi, sit
                                     laborum maiores id.</p>
                                 <h1>$420</h1>
-                                <div class="btn btn-warning">Boy Now</div>
+                                <div class="btn panda-btn-boy-now">Boy Now</div>
                             </div>
                         </div>
                         <div class="col-lg-5">
@@ -74,7 +75,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item active bg-info border rounded p-5">
+                <div class="carousel-item active panda-bg-info border rounded p-5">
                     <div class="row">
                         <div class="col-lg-7 d-flex align-items-center ps-5">
                             <div class="">
@@ -82,7 +83,7 @@
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus ea eligendi, sit
                                     laborum maiores id.</p>
                                 <h1>$600</h1>
-                                <div class="btn btn-warning">Boy Now</div>
+                                <div class="btn panda-btn-boy-now">Boy Now</div>
                             </div>
                         </div>
                         <div class="col-lg-5">
@@ -107,7 +108,7 @@
         <!-- catigories start -->
         <section>
             <div class="container text-center my-5">
-                <div class="row g-2">
+                <div class="row g-4 cetegoreas">
                     <!-- single catagory start-->
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="p-3 border bg-warning rounded-3 d-flex align-items-center justify-content-around">
@@ -135,7 +136,7 @@
         <!-- catigories end -->
 
         <!-- shoes section start -->
-        <section class="container my-5">
+        <section id="shoes" class="container my-5">
             <h2>shoes</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -148,7 +149,7 @@
                                 additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-warning">Boy Now</div>
+                            <div class="btn panda-btn-boy-now">Boy Now</div>
                         </div>
                     </div>
                 </div>
@@ -162,7 +163,7 @@
                                 content.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-warning">Boy Now</div>
+                            <div class="btn panda-btn-boy-now">Boy Now</div>
                         </div>
                     </div>
                 </div>
@@ -177,7 +178,7 @@
                                 height action.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-warning">Boy Now</div>
+                            <div class="btn panda-btn-boy-now">Boy Now</div>
                         </div>
                     </div>
                 </div>
@@ -186,7 +187,7 @@
         <!-- shoes section start -->
 
         <!-- backpack section start -->
-        <section class="container my-5">
+        <section class="container my-5" id="backpack">
             <h2>backpack</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -199,7 +200,7 @@
                                 additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-warning">Boy Now</div>
+                            <div class="btn panda-btn-boy-now">Boy Now</div>
                         </div>
                     </div>
                 </div>
@@ -213,7 +214,7 @@
                                 content.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-warning">Boy Now</div>
+                            <div class="btn panda-btn-boy-now">Boy Now</div>
                         </div>
                     </div>
                 </div>
@@ -228,7 +229,7 @@
                                 height action.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-warning">Boy Now</div>
+                            <div class="btn panda-btn-boy-now">Boy Now</div>
                         </div>
                     </div>
                 </div>
@@ -236,7 +237,25 @@
         </section>
         <!-- backpack section end -->
 
+        <!-- subscribe start -->
+        <div style="height: 300px;" class="container d-flex justify-content-center align-items-center panda-bg-info"
+            id="suscribe">
+            <div>
+                <h2>LET'S STAY IN TOUCH</h2>
+                <P>Get updet on sales, spesiales and more</P>
+                <form>
+                    <div class="mb-1">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <button type="submit" class="btn panda-btn-boy-now">Submit</button>
+                </form>
+            </div>
+        </div>
+        <!-- subscribe end -->
     </main>
+    <footer class="mt-3 text-center">
+        <small>2023. panda commarc. All right reserved sofia Bulgeria</small>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
